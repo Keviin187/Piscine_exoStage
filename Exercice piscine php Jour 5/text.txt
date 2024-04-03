@@ -1,0 +1,27 @@
+
+<!-- pour le 1 , vous devez d'abord vérifier si les deux paramètres sont des chaînes de caractères. Pour cela, vous pouvez utiliser la fonction is_string de PHP. Si l'un des paramètres n'est pas une chaîne de caractères, vous devez retourner 1. 
+
+Ensuite, vous devez comparer les longueurs des deux chaînes de caractères. Pour obtenir la longueur d'une chaîne de caractères en PHP, vous pouvez utiliser la fonction strlen.
+
+Si la longueur de $str1 est supérieure à celle de $str2, vous devez retourner la longueur de $str1. Si la longueur de $str2 est supérieure à celle de $str1, vous devez retourner la longueur de $str2.
+
+Si les deux chaînes de caractères ont la même longueur, vous devez retourner la chaîne $str1.
+Pour le deuxieme
+
+Définir votre fonction avec le mot-clé function suivi du nom de la fonction, dans ce cas, my_rounds. N'oubliez pas les parenthèses () après le nom de la fonction, c'est là que vous placerez les paramètres de votre fonction.
+
+Votre fonction doit prendre un paramètre, que vous pouvez appeler $nb. Ce paramètre sera le nombre que vous arrondirez. Incluez-le entre les parenthèses du nom de la fonction.
+
+Ouvrez le corps de votre fonction avec une accolade {.
+
+À l'intérieur du corps de la fonction, vous aurez besoin de trois variables pour stocker les résultats des différentes méthodes d'arrondi. Vous pouvez utiliser les fonctions intégrées en PHP round(), ceil() et floor() pour arrondir à l'entier le plus proche, à l'entier supérieur et à l'entier inférieur respectivement.
+
+Ensuite, vous devrez construire la chaîne de caractères à afficher. Vous pouvez utiliser l'opérateur de concaténation . en PHP pour combiner des chaînes de caractères et des variables.
+
+Utilisez la fonction echo pour afficher la chaîne de caractères.
+Fermez le corps de votre fonction avec une accolade }. -->
+
+<!-- Écrire une fonction qui compare la taille de deux chaînes de caractères et qui renvoie la taille 
+de la chaine la plus grande. Dans le cas où elles sont de même taille, renvoyer la valeur. Si jamais 
+l’une des deux est invalide, la fonction devra renvoyer "-1".  
+Prototype : int my_longer(string $str1, string $str2);  --> 
