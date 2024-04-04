@@ -1,10 +1,14 @@
 <?php
+$arr = array(35, 'kevin', 'colombes');
+$key = 1;
 
-function array_key(){
-    return array(35, 'kevin', 'colombes');
+function array_key($arr, $key){
+    foreach($arr as $key => $value){
+        echo $key;
+    }
+    
 }
-echo array_key()[0];
+array_key($arr, $key);
 
 ?>
 
-// a refaire 
