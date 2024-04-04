@@ -9,6 +9,7 @@ protected $strengh;
 protected $wit;
 
 const CLASSE = "Personnage";
+
 public function __construct($name)
 {
     $this->name=$name;
@@ -38,6 +39,10 @@ public function getWit(){
     return $this->wit;
 }
 
+public function getClasse(){
+    return self::CLASSE;
+}
+
 
 }
 
@@ -47,8 +52,10 @@ echo $perso->getLife()."\n";
 echo $perso->getAgility()."\n";
 echo $perso->getStrengh()."\n";
 echo $perso->getWit()."\n";
-echo Personnage::CLASSE . "\n";
+/* echo Personnage::CLASSE . "\n";  */
+echo $perso->getClasse()."\n";
 
 
 
 ?>
+
