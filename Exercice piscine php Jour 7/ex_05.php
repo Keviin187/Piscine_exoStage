@@ -29,8 +29,15 @@ class Pony{
 
 }
 
+if(is_callable(array("Pony","ponyBlue"))){
+    echo $pony->ponyBlue();
+}else{
+    echo"I don't know what to do \n";
+}
 
 
+$pony = new Pony("","","");
+$pony->speak();
 /* var_dump(method_exists("Pony","ponyBlue")); */
 
 
