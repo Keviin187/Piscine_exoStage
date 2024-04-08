@@ -1,0 +1,5 @@
+différences entre static et objet :
+
+static est propre a la class ce qui impacte tous les objets créer a partir de cette class
+
+alors que objet peut être modifier a partir de chaque nouvelle objets instanciés 
